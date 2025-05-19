@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+:host {
+  display: contents;
+}
+
+
+html, body { height: 100%; color: #777; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    display: flex;
+    min-height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.5;
+}
+
